@@ -1,0 +1,152 @@
+﻿@page
+@model HomeModel
+@{
+    ViewData["Title"] = "ZulAfrika Translate";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/MyStyles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/assets/css/templatemo-scholar.css" />
+    <link rel="stylesheet" href="~/assets/css/owl.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <!-- Preloader Start -->
+@*     <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div> *@
+    <!-- Preloader End -->
+    <!-- Header Area Start -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- Logo Start -->
+                        <a href="~/Index" class="logo">
+                            <h1>ZulAfrika Translate</h1>
+                        </a>
+                        <!-- Logo End -->
+                        <ul class="nav">
+                            <li><a href="~/LandingPage" class="active">Home</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    <!-- Main Banner -->
+    <div class="main-banner" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="item item-1">
+                        <div class="header-text">
+                            <span class="category">WELCOME</span>
+                            <h4>@Model.Label3</h4>
+                            <p>Using ZulAfrika Translate is simple and straightforward. Just upload your audio file, choose a language, and the preferred voice. Then click the 'Translate' button to receive your transcription and audio translation quickly and accurately. It's that easy to transform your audio into translated text and voice!</p>
+                            <h4>@Model.Label4</h4>
+                            <p>@Model.Label2</p>
+                            <div class="buttons">
+                                <form method="post" enctype="multipart/form-data">
+                                    <input type="file" id="fileUpload" name="UploadedFile" class="btn btn-light btn-outline-primary" />
+                                    <select id="languageDropDown" name="language" class="btn btn-light btn-outline-primary">
+                                        <option value="en">Choose a language</option>
+                                        <option value="af">Afrikaans</option>
+                                        <option value="nso">Sepedi</option>
+                                        <option value="zu">Zulu</option>
+                                    </select>
+                                    <select id="voiceDropDown" name="voice" class="btn btn-light btn-outline-primary">
+                                        <option value="en-ZA-2">Choose a voice</option>
+                                        <option value="af-ZA-1">Afrikaans Female</option>
+                                        <option value="af-ZA-2">Afrikaans Male</option>
+                                        <option value="zu-ZA-1">Zulu Female</option>
+                                        <option value="zu-ZA-2">Zulu Male</option>
+                                    </select>
+                                    <button type="submit" class="btn btn-light btn-outline-primary">Translate</button>
+                                </form>
+                                <div class="buttons">
+                                    <audio id="audioPlayer" controls></audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transcription and Translation Results -->
+                    @if (!string.IsNullOrEmpty(Model.Transcription))
+                    {
+                        <h3>Transcription (Original):</h3>
+                        <p>@Model.Transcription</p>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.Translation))
+                    {
+                        <h3>Translated Text:</h3>
+                        <p>@Model.Translation</p>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.AudioUrl))
+                    {
+                        <h3>Play Translated Audio:</h3>
+                        <audio controls>
+                            <source src="@Model.AudioUrl" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                    }
+
+                    @if (!Model.ModelState.IsValid)
+                    {
+                        <div>
+                            <p class="text-danger">Errors:</p>
+                            <ul>
+                                @foreach (var error in Model.ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <li>@error.ErrorMessage</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>Copyright © 2024 ZulAfrika Translate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/isotope.min.js"></script>
+    <script src="~/assets/js/owl-carousel.js"></script>
+    <script src="~/assets/js/counter.js"></script>
+    <script src="~/assets/js/custom.js"></script>
+</body>
+</html>
+
