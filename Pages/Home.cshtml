@@ -1,0 +1,71 @@
+﻿@page
+@model Audio_Translate.Pages.HomeModel
+@{
+    ViewData["Title"] = "Voice Translation Application";
+}
+
+<h2>@Model.Label3</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="fileInput">Select an audio file (MP3, WAV, etc.):</label>
+        <input type="file" name="UploadedFile" class="form-control-file" id="fileInput" required>
+    </div>
+
+    <div class="form-group">
+        <label for="languageInput">Select target language for translation:</label>
+        <select name="Language" class="form-control" id="languageInput" required>
+            <option value="af">Afrikaans</option>
+            <option value="zu">Zulu</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="voiceInput">Select voice for Text-to-Speech output:</label>
+        <select name="Voice" class="form-control" id="voiceInput" required>
+            <option value="af-ZA-1">Afrikaans (South Africa) - Female</option>
+            <option value="af-ZA-2">Afrikaans (South Africa) - Male</option>
+            <option value="zu-ZA-1">Zulu (South Africa) - Female</option>
+            <option value="zu-ZA-2">Zulu (South Africa) - Male</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload and Translate</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Transcription))
+{
+    <h3>Transcription</h3>
+    <p>@Model.Transcription</p>
+}
+
+@if (!string.IsNullOrEmpty(Model.Translation))
+{
+    <h3>Translation</h3>
+    <p>@Model.Translation</p>
+}
+
+@if (!string.IsNullOrEmpty(Model.AudioUrl))
+{
+    <h3>Translated Audio</h3>
+    <audio controls>
+        <source src="@Model.AudioUrl" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+}
+
+@if (!ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+
+
+

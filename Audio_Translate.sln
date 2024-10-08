@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audio_Translate", "Audio_Translate.csproj", "{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37AF796E-116F-45E7-BB05-F2F594BDD35D}
+	EndGlobalSection
+EndGlobal
