@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\i7 DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Fumane Katleho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i7 DELL\\Desktop\\Audio_Translate\\Audio_Translate.csproj",
+      "projectUniqueName": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Audio_Translate.csproj",
       "projectName": "Audio_Translate",
-      "projectPath": "C:\\Users\\i7 DELL\\Desktop\\Audio_Translate\\Audio_Translate.csproj",
-      "packagesPath": "C:\\Users\\i7 DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i7 DELL\\Desktop\\Audio_Translate\\obj\\",
+      "projectPath": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Audio_Translate.csproj",
+      "packagesPath": "C:\\Users\\Fumane Katleho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\i7 DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fumane Katleho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1664,6 +1664,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\WhatsApp Audio 2024-07-24 at 21.48.51_0c5e78a5.waptt.opus))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\WhatsApp Audio 2024-09-16 at 13.45.18_0da230c6.waptt.opus))">
+      <SourceType>Package</SourceType>
+      <SourceId>Audio_Translate</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Audio_Translate</BasePath>
+      <RelativePath>uploads/WhatsApp Audio 2024-09-16 at 13.45.18_0da230c6.waptt.opus</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\WhatsApp Audio 2024-09-16 at 13.45.18_0da230c6.waptt.opus))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\bootstrap\css\bootstrap.min.css))">
       <SourceType>Package</SourceType>
       <SourceId>Audio_Translate</SourceId>

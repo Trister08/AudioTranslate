@@ -31,3 +31,37 @@ C:\Users\i7 DELL\Desktop\Audio_Translate\obj\Debug\net8.0\refint\Audio_Translate
 C:\Users\i7 DELL\Desktop\Audio_Translate\obj\Debug\net8.0\Audio_Translate.pdb
 C:\Users\i7 DELL\Desktop\Audio_Translate\obj\Debug\net8.0\Audio_Translate.genruntimeconfig.cache
 C:\Users\i7 DELL\Desktop\Audio_Translate\obj\Debug\net8.0\ref\Audio_Translate.dll
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\appsettings.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.staticwebassets.runtime.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.exe
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.deps.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.runtimeconfig.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.dll
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Audio_Translate.pdb
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.csproj.AssemblyReference.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.AssemblyInfoInputs.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.AssemblyInfo.cs
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.csproj.CoreCompileInputs.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.RazorAssemblyInfo.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.RazorAssemblyInfo.cs
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.sourcelink.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets\msbuild.Audio_Translate.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets\msbuild.build.Audio_Translate.props
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Audio_Translate.props
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Audio_Translate.props
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\scopedcss\bundle\Audio_Translate.styles.css
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\scopedcss\projectbundle\Audio_Translate.bundle.scp.css
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Tr.2CDB7A98.Up2Date
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.dll
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\refint\Audio_Translate.dll
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.pdb
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\Audio_Translate.genruntimeconfig.cache
+C:\Users\Fumane Katleho\Desktop\JBS\Translate front-end\AudioTranslate\obj\Debug\net8.0\ref\Audio_Translate.dll

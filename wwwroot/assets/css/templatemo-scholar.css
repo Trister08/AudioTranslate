@@ -284,18 +284,18 @@ Header Style
 */
 
 .background-header {
-  background-color: #7a6ad8 !important;
-  border-radius: 0px 0px 25px 25px;
-  height: 80px!important;
-  position: fixed!important;
-  top: 0!important;
-  left: 0;
-  right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
-  -webkit-transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
-  transition: all .5s ease 0s;
+    background-color: #32639a !important;
+    border-radius: 0px 0px 25px 25px;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15) !important;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
 }
 
 .header-area {
@@ -666,15 +666,16 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 170px 0px 120px 0px;
+    /**background-image: url(../images/banner-bg.jpg);*/
+    background-color: #32639a;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px 120px 0px;
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-item-01.jpg);
+  background-image: url('../images/patternsBg - Copy.jpg');
 }
 
 .main-banner .item-2 {
@@ -694,16 +695,16 @@ Banner Style
   margin-left: 130px;
 }
 
-.main-banner .item span.category {
-  background-color: #7a6ad8;
-  color: #fff;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 5px 15px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-bottom: 50px;
-}
+    .main-banner .item span.category {
+        background-color: #32639a;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px 15px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
 
 .main-banner .item h2 {
   font-size: 48px;
@@ -740,18 +741,19 @@ Banner Style
   font-weight: 500;
 }
 
-.main-banner .item .buttons .icon-button i {
-  color: #7a6ad8;
-  background-color: #fff;
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-  font-size: 16px;
-}
+    .main-banner .item .buttons .icon-button i {
+        /*background-color: #fff;*/
+        background-color: #32639a;
+
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 150%;
+        margin-right: 10px;
+        font-size: 80px;
+    }
 
 .main-banner .item .buttons .icon-button a {
   color: #fff;
@@ -1635,12 +1637,12 @@ Footer Style
 */
 
 footer {
-  margin-top: 150px;
-  position: relative;
-  background-color: #7a6ad8;
-  vertical-align: middle;
-  min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
+    margin-top: 150px;
+    position: relative;
+    background-color: #32639a;
+    vertical-align: middle;
+    min-height: 150px;
+    border-radius: 150px 150px 0px 0px;
 }
 
 footer p {
