@@ -117,10 +117,35 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
 }
+.mainHeading {
+    -webkit-text-stroke: 1px black;
+    
+}
+.modelText {
+    font-size: 25px;
+    -webkit-text-stroke: 0.7px black;
+}
+.header-text {
+    color: white;
+}
+.textLabelsIndex {
+    -webkit-text-stroke: 0.7px black;
+    outline-color: black;
+    font-size: 27px;
+    align-content: center;
+    margin-left: 10px
+}
+.textLabels{
+    -webkit-text-stroke: 0.7px black;
+    outline-color: black;
+    font-size: 25px;
+    align-content: center;
+    
+}
 
 ::selection {
-  background: #7a6ad8;
-  color: #fff;
+    background: #7a6ad8;
+    color: #fff;
 }
 
 ::-moz-selection {
@@ -676,6 +701,7 @@ Banner Style
 
 .main-banner .item-1 {
   background-image: url('../images/patternsBg - Copy.jpg');
+
 }
 
 .main-banner .item-2 {
@@ -692,7 +718,6 @@ Banner Style
   background-size: cover;
   border-radius: 25px;
   padding: 100px 100px;
-  margin-left: 130px;
 }
 
     .main-banner .item span.category {
@@ -722,12 +747,65 @@ Banner Style
 
 .main-banner .item .buttons {
   display: flex;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .main-banner .item .buttons .main-button {
   margin-right: 30px;
 }
+/* Solid Red Button - No Glow and Twice the Size */
+/* Red Button - No Glow and Twice the Size */
+.btn-class-name {
+    --color: 255, 0, 0; /* Red color */
+    border-radius: .9em;
+    transition: .3s;
+    background-color: rgba(var(--color), .2);
+    color: black;
+    fill: rgb(var(--color));
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: xx-large; /* Increase font size */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(var(--color));
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 1em 2em; /* Double the padding */
+/*    margin-top: 45px;*/
+}
+
+    .btn-class-name:hover {
+        /* No glow effect on hover */
+    }
+
+    .btn-class-name span {
+        transform: scale(.8);
+        transition: .3s;
+    }
+
+    .btn-class-name:hover span {
+        transform: scale(1);
+    }
+
+    .btn-class-name svg {
+        font-size: 0;
+        transform: scale(1) translateX(0%) rotate(-180deg); /* Increase the size of the icon */
+        transition: .3s;
+    }
+
+    .btn-class-name:hover svg {
+        font-size: 40px; /* Double the font size for SVG */
+        transform: scale(1) translateX(20%) rotate(0deg);
+    }
+
+    .btn-class-name:active {
+        transition: 0s;
+    }
+
+
+
 
 .main-banner .item .buttons .main-button a {
   font-size: 14px;
@@ -737,29 +815,86 @@ Banner Style
   height: 50px;
   line-height: 50px;
   padding: 0px 25px;
-  border-radius: 25px;
+  border-radius: 45px;
   font-weight: 500;
 }
+.icon-button {
+    height: 100px;
 
-    .main-banner .item .buttons .icon-button i {
-        /*background-color: #fff;*/
-        background-color: #32639a;
-
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        text-align: center;
-        line-height: 50px;
-        border-radius: 150%;
-        margin-right: 10px;
-        font-size: 80px;
-    }
+}
+.main-banner .item .buttons .icon-button i {
+    /*background-color: #fff;*/
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 150%;
+    font-size: 120px;
+    color: #32639a;
+    /*margin-left: 300px*/
+}
 
 .main-banner .item .buttons .icon-button a {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
 }
+/* From Uiverse.io by catraco */
+/*.btn-class-name {
+    --color: 255, 0, 0;*/ /* Red color for neon effect */
+    /*border-radius: .5em;
+    transition: .3s;
+    background-color: rgba(var(--color), .2);
+    color: rgb(var(--color));
+    fill: rgb(var(--color));
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(var(--color));*/
+    /* Neon glow effect */
+    /*box-shadow: 0 0 20px rgba(var(--color), 1), 0 0 50px rgba(var(--color), .7), 0 0 100px rgba(var(--color), .5);
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: .5em 1em;
+}
+
+    .btn-class-name:hover {*/
+        /* Increase the glow on hover */
+        /*box-shadow: 0 0 20px rgba(var(--color), 1), 0 0 50px rgba(var(--color), .7), 0 0 150px rgba(var(--color), .8);
+    }
+
+    .btn-class-name span {
+        transform: scale(.8);
+        transition: .3s;
+    }   
+
+    .btn-class-name:hover span {
+        transform: scale(1);
+    }
+
+    .btn-class-name svg {
+        font-size: 0;
+        transform: scale(0.5) translateX(0%) rotate(-180deg);
+        transition: .3s;
+    }
+
+    .btn-class-name:hover svg {
+        font-size: 20px;
+        transform: scale(1) translateX(20%) rotate(0deg);
+    }
+
+    .btn-class-name:active {
+        transition: 0s;*/
+        /* Stronger shadow on active */
+        /*box-shadow: 0 0 30px rgba(var(--color), 1), 0 0 70px rgba(var(--color), .9);
+    }*/
+
+
 
 .main-banner .owl-nav {
   position: absolute;
