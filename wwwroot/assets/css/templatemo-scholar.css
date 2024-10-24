@@ -133,12 +133,14 @@ body {
     outline-color: black;
     font-size: 20px;
     align-content: center;
-    margin-left: 10px
+    margin-left: 10px;
+   font-weight: bold;
 }
 .textLabels{
     -webkit-text-stroke: 0.7px black;
     outline-color: black;
     font-size: 20px;
+    font-weight: bold;
     align-content: center;
     
 }
