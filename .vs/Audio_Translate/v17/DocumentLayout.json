@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}|Audio_Translate.csproj|c:\\users\\fumane katleho\\desktop\\jbs\\translate front-end\\audiotranslate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}|Audio_Translate.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}|Audio_Translate.csproj|c:\\users\\fumane katleho\\desktop\\jbs\\translate front-end\\audiotranslate\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF24C852-AA31-4A4C-9966-C0E1CFC36ECA}|Audio_Translate.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-18T08:19:43.89Z",
               "IsPinned": true,
@@ -56,7 +60,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T09:52:43.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "templatemo-scholar.css",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\templatemo-scholar.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\templatemo-scholar.css",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Pages\\Home.cshtml",
               "RelativeDocumentMoniker": "Pages\\Home.cshtml",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
@@ -92,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Home.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\Pages\\Home.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Home.cshtml.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "owl.css",
               "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\owl.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\owl.css",
