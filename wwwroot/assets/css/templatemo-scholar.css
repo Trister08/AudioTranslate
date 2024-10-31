@@ -760,7 +760,7 @@ Banner Style
     border-radius: .9em;
     transition: .3s;
     background-color: rgba(var(--color), .2);
-    color: black;
+    color: white;
     fill: rgb(var(--color));
     font-family: monospace;
     font-weight: bolder;

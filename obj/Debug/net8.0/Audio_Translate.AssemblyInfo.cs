@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Audio_Translate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540e574b8aaa00b02bc57e5a41618e7d0be4604f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b561addf2aed258c629d40cd967b989a05f83f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Audio_Translate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Audio_Translate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
