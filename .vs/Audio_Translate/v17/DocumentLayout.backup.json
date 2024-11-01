@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -55,7 +55,19 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-18T08:19:43.89Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "templatemo-scholar.css",
+              "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\templatemo-scholar.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\templatemo-scholar.css",
+              "ToolTip": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\templatemo-scholar.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\templatemo-scholar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYDAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-21T13:09:16.045Z",
               "EditorCaption": ""
             },
             {
@@ -68,21 +80,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-24T09:52:43.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "templatemo-scholar.css",
-              "DocumentMoniker": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\templatemo-scholar.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\templatemo-scholar.css",
-              "ToolTip": "C:\\Users\\Fumane Katleho\\Desktop\\JBS\\Translate front-end\\AudioTranslate\\wwwroot\\assets\\css\\templatemo-scholar.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\templatemo-scholar.css",
-              "ViewState": "AgIAAPECAAAAAAAAAAAUwP8CAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T13:09:16.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T09:52:43.935Z"
             },
             {
               "$type": "Document",
