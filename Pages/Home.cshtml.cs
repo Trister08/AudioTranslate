@@ -14,7 +14,8 @@ namespace Audio_Translate.Pages
 
         private readonly string assemblyApiKey = "59c606248b1f4c3a8c3e3b150a321f8b"; // AssemblyAI for transcription
         private readonly string translateApiKey = "a3b35cf4e8msha00ce3bc33d7f79p1bcdbajsndb87f71092e2"; // Deep Translate for translation
-        private readonly string ttsApiKey = "147a661867mshfe4aa404dfc187fp11bcd4jsn38c749e45344"; // CloudLabs Text-to-Speech
+        //private readonly string ttsApiKey = "147a661867mshfe4aa404dfc187fp11bcd4jsn38c749e45344"; // CloudLabs Text-to-Speech
+        private readonly string ttsApiKey = "1c82876349msh8bb55f3cbfa386bp15f911jsna25a66cb2f92";// CloudLabs Text-to-Speech
 
         public HomeModel(ILogger<HomeModel> logger)
         {
